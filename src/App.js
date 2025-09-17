@@ -83,7 +83,7 @@ function App() {
       <Alerts alert={alert} onClose={() => setalert(null)} />
       <div className="container my-3">
         <Routes>
-          <Route exact path="/about" element={<About />} />
+          <Route exact path="/about" element={<About mode={mode} />} />
           <Route exact  path="/" element={<TextForm mode={mode} showalert={showalert} heading="Enter the text to Analyze below"/>} />
         </Routes>
       </div>

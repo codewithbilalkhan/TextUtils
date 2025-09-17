@@ -68,7 +68,7 @@ export default function TextForm(props) {
         : props.mode === 'dark'
         ? 'btn-light text-dark'
         : 'btn-success'
-    } my-3`}
+    } mx-1 my-1`}
     onClick={handleUpClick}
   >
     Convert to Uppercase
@@ -80,7 +80,7 @@ export default function TextForm(props) {
         : props.mode === 'dark'
         ? 'btn-light text-dark'
         : 'btn-success'
-    } mx-3`}
+    } mx-1 my-1`}
     onClick={handleUpClick2}
   >
     Convert to Lowercase
@@ -92,7 +92,7 @@ export default function TextForm(props) {
         : props.mode === 'dark'
         ? 'btn-light text-dark'
         : 'btn-success'
-    } `}
+    } mx-1 my-1`}
     onClick={handleClearText}
   >
     Clear text
@@ -104,7 +104,7 @@ export default function TextForm(props) {
         : props.mode === 'dark'
         ? 'btn-light text-dark'
         : 'btn-success'
-    } mx-3`}
+    } mx-1 my-1`}
     onClick={alternativeText}
   >
     alternative text
